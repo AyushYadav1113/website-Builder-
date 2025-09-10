@@ -1,8 +1,8 @@
 import React from "react";
-import { SignIn } from "@clerk/nextjs";
+import { SignUp } from "@clerk/nextjs";
 
 const Page: React.FC = ({}) => {
-  return <SignIn />;
+  return <SignUp />;
 };
 
 export default Page;
